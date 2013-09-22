@@ -1,0 +1,15 @@
+integration_configuration:
+
+- url: http://www.ahalife.com
+  partner: ahalife
+
+- url: http://www.lollywollydoodle.com
+  partner: lwd
+
+- url: http://www.tommyjohnwear.com
+  partner: tj
+
+- url: http://checkout.shopify.com
+  partner: lwd
+  body_token: ^((?lollywollydoodle\.com).)*$
+  header_token: ((?lwd).)*$
